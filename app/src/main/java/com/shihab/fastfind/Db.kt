@@ -12,7 +12,7 @@ import android.database.sqlite.SQLiteOpenHelper
 class Db(ctx: Context) : SQLiteOpenHelper(ctx.applicationContext, "fastfind.db", null, 1) {
 
     override fun onConfigure(db: SQLiteDatabase) {
-        db.setWriteAheadLoggingEnabled(true)
+        db.enableWriteAheadLogging()
     }
 
     override fun onCreate(db: SQLiteDatabase) {
