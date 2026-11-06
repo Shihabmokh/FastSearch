@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FastFind</string>
+    <string name="hint_search">Search files or text inside files…</string>
+    <string name="chip_names">Names</string>
+    <string name="chip_contents">Contents</string>
+    <string name="chip_both">All</string>
+    <string name="menu_more">More</string>
+
+    <string name="perm_msg">FastFind needs the \"All files access\" permission to index your phone. The index never leaves your device.</string>
+    <string name="perm_btn">Grant permission</string>
+
+    <string name="status_idle">%1$s items indexed • %2$s files with indexed content</string>
+    <string name="status_scan">Indexing names… %1$s</string>
+    <string name="status_content">Reading file contents… %1$s / %2$s</string>
+    <string name="status_results">%1$s results • %2$d ms</string>
+    <string name="status_results_capped">First %1$s results • %2$d ms</string>
+    <string name="status_recent">Recently modified files</string>
+    <string name="status_fuzzy">approximate matches</string>
+    <string name="status_bad">Invalid query</string>
+    <string name="empty_none">No results</string>
+    <string name="empty_index">Indexing in progress… results will appear gradually</string>
+
+    <string name="menu_rescan">Rescan now</string>
+    <string name="menu_stop">Stop indexing</string>
+    <string name="menu_rebuild">Rebuild index from scratch</string>
+    <string name="menu_help">Search syntax</string>
+
+    <string name="act_open">Open</string>
+    <string name="act_folder">Show folder</string>
+    <string name="act_share">Share</string>
+    <string name="act_copy">Copy path</string>
+    <string name="act_details">Details</string>
+
+    <string name="toast_missing">File not found</string>
+    <string name="toast_noapp">No app can open this file</string>
+    <string name="toast_copied">Path copied</string>
+    <string name="type_folder">Folder</string>
+
+    <string name="help_title">Search syntax</string>
+    <string name="help_body">• Several words = all must match: report 2026\n• \"exact phrase\"  and  -word (exclude)\n• ext:pdf  or  ext:jpg;png\n• type:image | video | audio | doc | sheet | slide | archive | apk | code\n• size:>10mb  or  size:1mb..5mb\n• modified:today | yesterday | week | month | year\n• after:2026-01-01  before:2026-06-30  or  modified:7d\n• path:Download  (part of the path)\n• is:folder  or  is:file\n• c:word  = search inside file contents\n• re:^IMG_\\d+  = regular expression on the name\n\nArabic search ignores diacritics and أ/إ/ا, ى/ي, ة/ه differences, and Chinese works too. If nothing matches, a typo-tolerant search runs automatically (e.g. rprt → report).\n\nContent indexed: text, code, CSV, JSON, HTML, DOCX, XLSX, PPTX, ODT and PDF.</string>
+</resources>
