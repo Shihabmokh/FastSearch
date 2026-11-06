@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FastFind</string>
+    <string name="hint_search">ابحث عن ملف أو نص داخل الملفات…</string>
+    <string name="chip_names">الأسماء</string>
+    <string name="chip_contents">المحتوى</string>
+    <string name="chip_both">الكل</string>
+    <string name="menu_more">المزيد</string>
+
+    <string name="perm_msg">يحتاج التطبيق إذن «الوصول إلى جميع الملفات» لفهرسة هاتفك. الفهرس يبقى على جهازك فقط.</string>
+    <string name="perm_btn">منح الإذن</string>
+
+    <string name="status_idle">%1$s عنصر مفهرس • %2$s ملف بمحتوى مفهرس</string>
+    <string name="status_scan">جارٍ فهرسة الأسماء… %1$s</string>
+    <string name="status_content">جارٍ قراءة محتوى الملفات… %1$s / %2$s</string>
+    <string name="status_results">%1$s نتيجة • %2$d مللي ثانية</string>
+    <string name="status_results_capped">أول %1$s نتيجة • %2$d مللي ثانية</string>
+    <string name="status_recent">آخر الملفات المعدّلة</string>
+    <string name="status_fuzzy">نتائج تقريبية</string>
+    <string name="status_bad">استعلام غير صالح</string>
+    <string name="empty_none">لا توجد نتائج</string>
+    <string name="empty_index">الفهرسة جارية… ستظهر النتائج تدريجيًا</string>
+
+    <string name="menu_rescan">إعادة الفحص الآن</string>
+    <string name="menu_stop">إيقاف الفهرسة</string>
+    <string name="menu_rebuild">إعادة بناء الفهرس من الصفر</string>
+    <string name="menu_help">طريقة البحث</string>
+
+    <string name="act_open">فتح</string>
+    <string name="act_folder">إظهار المجلد</string>
+    <string name="act_share">مشاركة</string>
+    <string name="act_copy">نسخ المسار</string>
+    <string name="act_details">التفاصيل</string>
+
+    <string name="toast_missing">الملف غير موجود</string>
+    <string name="toast_noapp">لا يوجد تطبيق لفتح هذا الملف</string>
+    <string name="toast_copied">تم نسخ المسار</string>
+    <string name="type_folder">مجلد</string>
+
+    <string name="help_title">طريقة البحث</string>
+    <string name="help_body">• عدة كلمات = يجب ظهورها كلها: تقرير 2026\n• \"عبارة دقيقة\"  و  -كلمة (استبعاد)\n• ext:pdf  أو  ext:jpg;png\n• type:image | video | audio | doc | sheet | slide | archive | apk | code\n• size:>10mb  أو  size:1mb..5mb\n• modified:today | yesterday | week | month | year\n• after:2026-01-01  before:2026-06-30  أو  modified:7d\n• path:Download  (جزء من المسار)\n• is:folder  أو  is:file\n• c:كلمة  = بحث داخل محتوى الملفات\n• re:^IMG_\\d+  = تعبير نمطي على الاسم\n\nالبحث يتجاهل التشكيل والفرق بين أ/إ/ا و ى/ي و ة/ه، ويعمل مع الصينية أيضًا. إن لم توجد نتيجة يجرّب بحثًا تقريبيًا تلقائيًا (مثلًا rprt ← report).\n\nالمحتوى المدعوم: النصوص والأكواد وCSV وJSON وHTML وDOCX وXLSX وPPTX وODT وPDF.</string>
+</resources>
